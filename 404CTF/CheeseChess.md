@@ -17,3 +17,5 @@ Using browser developer tools, we explore the page source and quickly notice a l
 Inside bundle.js, we directly find the flag hardcoded in the script:
 
 ````404CTF{l3_nOuveAU_c4RlseN}````
+
+No need to play chess, indeed the strategy was simply to analyze the code!
