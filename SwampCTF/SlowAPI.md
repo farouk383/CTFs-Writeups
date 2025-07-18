@@ -35,6 +35,7 @@ The screenshot above shows:
 - A backend API call to `/api/protected/flag` that returns `401 Unauthorized`
 
 ![API](./images/3.png)
+
 This confirms that the flag is dynamically fetched via a protected API route.
 
 ---
