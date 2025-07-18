@@ -14,13 +14,13 @@ We exploit **CVE-2025-29927**, a vulnerability in **Next.js** middleware that al
 
 ---
 
-## 🕵️ Reconnaissance and Initial Analysis
+## 🕵️ Reconnaissance
 
 We are presented with a **Next.js** web application. Our goal is to access a flag, but we’re blocked from viewing it directly through the frontend.
 
 ![blocked](./images/1.png)
 
-### Step 1: Discover the Flag Endpoint
+### Discovering the Flag Endpoint
 
 By exploring the site and inspecting the **Network tab** in developer tools, we identify that the frontend is attempting to load the flag via this API request:
 
