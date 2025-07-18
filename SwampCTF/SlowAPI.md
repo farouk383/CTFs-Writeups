@@ -18,7 +18,7 @@ We exploit **CVE-2025-29927**, a vulnerability in **Next.js** middleware that al
 
 We are presented with a **Next.js** web application. Our goal is to access a flag, but we’re blocked from viewing it directly through the frontend.
 
-![blocked](/images/1.png)
+![blocked](./images/1.png)
 
 ### Step 1: Discover the Flag Endpoint
 
@@ -28,13 +28,13 @@ By exploring the site and inspecting the **Network tab** in developer tools, we 
 GET /api/protected/flag
 ```
 
-![API](/images/2.png)
+![API](./images/2.png)
 
 The screenshot above shows:
 - A frontend request to `/flag`
 - A backend API call to `/api/protected/flag` that returns `401 Unauthorized`
 
-![API](/images/3.png)
+![API](./images/3.png)
 This confirms that the flag is dynamically fetched via a protected API route.
 
 ---
@@ -67,7 +67,7 @@ We take the original protected API endpoint:
 
 ✅ This request successfully bypasses the authentication middleware, and the server responds with the **flag**.
 
-![API](/images/4.png)
+![API](./images/4.png)
 ---
 
 ## 🏁 Flag
