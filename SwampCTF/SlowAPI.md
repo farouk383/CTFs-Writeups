@@ -1,4 +1,4 @@
-# SlowAPI
+# 🧀 SlowAPI - Writeup
 
 **Challenge Name:** SlowAPI  
 **Points:** 50  
