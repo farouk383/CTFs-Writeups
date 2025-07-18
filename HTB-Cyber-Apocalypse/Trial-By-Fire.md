@@ -17,7 +17,7 @@ However, viewing the **page source** reveals a suspicious hint:
 
 ```html
 Can you read the runes? Perhaps {{ 7 * 7 }} is the key. <!-- SSTI -->
-
+```
 The output shows 49 in the rendered page, confirming a Server-Side Template Injection (SSTI) vulnerability.
 🔍 Application Behavior
 
