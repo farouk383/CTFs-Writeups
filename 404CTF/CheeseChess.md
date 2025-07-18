@@ -1,7 +1,7 @@
 # 🧀 Cheese Chess - Writeup
 
 **Category:** Web  
-**Points: N/A**
+**Points: N/A**  
 **Description:**  
 > Avant de passer aux choses sérieuses, voici un test d'aptitude pour tester tes qualités intellectuelles !     Ce jeux d'échecs est un peu particulier, à toi de trouver la statégie gagnate ! 
 
