@@ -77,7 +77,7 @@ This way, the server sees valid whitespace, and the injection works despite the 
 
 After identifying the correct table and column names, and bypassing the space filter using %09, we crafted a final payload to extract the flag from the database.
 
-![](./images/4.png
+![](./images/4.png)
 
 We successfully retrieved the flag:
 
